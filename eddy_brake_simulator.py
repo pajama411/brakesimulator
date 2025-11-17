@@ -35,7 +35,7 @@ dt = 0.03
 # --------------------------
 # wheel.png를 base64로 읽기
 # --------------------------
-with open("wheel.png", "rb") as f:
+with open("wheel.PNG", "rb") as f:
     img_bytes = f.read()
 img_b64 = base64.b64encode(img_bytes).decode()
 
@@ -170,3 +170,4 @@ st.markdown("""
 - 저속에서는 제동력이 약함  
 - 차량을 완전히 정지시키기 어렵기 때문에 실제 자동차에서는 기계식 브레이크와 병행 사용
 """)
+
